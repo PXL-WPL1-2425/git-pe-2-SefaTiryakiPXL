@@ -1,64 +1,67 @@
-* {
+body{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-    background: red;
+    background-color: pink;
 }
 
-body {
-    color: #fff;
-    overflow-x: hidden;
+header{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
 }
 
-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: transparent;
-    z-index: 10;
+nav {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar div{
+    text-align: center;
+    flex: 1;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
+    font-family: 'Arial', sans-serif;
 }
 
-.logo img {
+.logo {
     width: 120px;
+    height: 80px;
 }
 
-nav ul {
+.tekst2 {
+    margin: 15px 0 0 0;
     display: flex;
-    gap: 2rem;
-    list-style: none;
+    justify-content: center;
+    text-align: center;
 }
 
-nav a {
+.tekst2 a {
     color: White;
+    flex: 1;
+    white-space: nowrap;
+    text-decoration: none;
     font-size: 14px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 500;
+}
+.galinks{
+    margin: 0 0 0 -80px;
 }
 
+.marginFix{
+    margin: 0px -20px 0px -20px;
+}
 
-.Sign {
+.registratie{
+    margin: 30px 0 0 0;
+}
+
+.registratie a:visited{
+    color: white;
+}
+.registratie a{
+    text-decoration: none;
     background-color: red;
-    color: red;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+    color: black;
+    padding: 5px 25px 5px 25px;
+    border-radius: 25px;
 }
-
