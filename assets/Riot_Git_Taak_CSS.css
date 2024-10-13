@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
+    background: red;
 }
 
 body {
@@ -10,7 +11,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Navbar Styles */
 header {
     position: absolute;
     top: 0;
@@ -42,8 +42,8 @@ nav ul {
 }
 
 nav a {
-    color: black;
-    font-size: 1.1rem;
+    color: White;
+    font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 500;
@@ -51,8 +51,8 @@ nav a {
 
 
 .Sign {
-    background-color: white;
-    color: white;
+    background-color: red;
+    color: red;
     padding: 10px 20px;
     border-radius: 20px;
     font-size: 1rem;
