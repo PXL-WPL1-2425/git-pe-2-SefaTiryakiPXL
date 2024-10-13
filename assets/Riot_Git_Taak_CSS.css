@@ -1,14 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
 
-.FLEX_CONTAINER {
+body {
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* Navbar Styles */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
     display: flex;
-    justify-content: center;
-    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    z-index: 10;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
 
-.FLEX_CONTAINER a {
+.logo img {
+    width: 120px;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav a {
     color: black;
+    font-size: 1.1rem;
+    text-transform: uppercase;
     text-decoration: none;
-    list-style-type: none;
-
+    font-weight: 500;
 }
+
+
+.Sign {
+    background-color: white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
